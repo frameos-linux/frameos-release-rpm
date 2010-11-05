@@ -1,4 +1,4 @@
-%define builtin_release_name Beta2
+%define builtin_release_name Final Release
 %define product_family FrameOS
 %define base_release_version 5.5
 %define builtin_release_variant Server
@@ -13,7 +13,7 @@ Summary: %{product_family} release file
 Name: frameos-release
 Epoch: 10
 Version: 5
-Release: 6.b2.el5.frameos
+Release: 7.ga.el5.frameos
 License: GPL
 Group: System Environment/Base
 Source: frameos-release-%{builtin_release_version}.tar.gz
@@ -82,6 +82,9 @@ rm -rf $RPM_BUILD_ROOT
 #/var/lib/supportinfo
 
 %changelog
+* Fri Nov 05 2010 Sergio Rubio <rubiojr@frameos.org>
+- Updated to GA
+
 * Wed Aug 04 2010 Sergio Rubio <rubiojr@frameos.org>
 - Updated to Beta 2
 
